@@ -43,7 +43,7 @@
                 <td>${record.id}</td>
                 <td>${record.name}</td>
                 <td>${record.brewery_type}</td>
-                <td><a href="#${record.id}" onclick="getData('https://api.openbrewerydb.org/v1/breweries/${record.id}', drawDetails)" >View More Details</a></td>   
+                <td><a href="#${record.id}" onclick="getData('https://api.openbrewerydb.org/v1/breweries/${record.id}', drawDetails)" >View More Details</a></td>    
               </tr>`;
           }
           result.innerHTML = html;//add html string to DOM
